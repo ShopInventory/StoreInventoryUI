@@ -1,0 +1,29 @@
+.topbar {
+  background-color: var(--toolbar) !important;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  height: var(--header-height);
+}
+
+.topbar-dd {
+  min-width: 200px !important;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+
+.profile-container{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  // padding: 1px;
+  img{
+    object-fit: cover;
+    // border-radius: 50%;
+    width: 100%;
+  }
+}
